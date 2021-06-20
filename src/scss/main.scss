@@ -1,0 +1,56 @@
+// This is where you can import other stylesheets or write your scss code
+@import url('https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&display=swap'); 
+$font-family-base:  'Love Ya Like A Sister', cursive;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* h2{
+    font-family: 'Love Ya Like A Sister', cursive;
+} */
+.header{
+    background-image: url(../images/lidye-1Shk_PkNkNw-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    height: 80vh;
+}
+.small{
+    height: 50px;
+    width: 50px;
+
+}
+.idea{
+    text-align: center;
+}
+.box3{
+    background-color: rgba(17, 19, 175, 0.877);
+    height: 100vh;
+
+}
+.pic{
+    text-align: center;
+}
+.topburger{
+    font-size: 200%;
+}
+.circle{
+    height: 80px;
+    width: 80px;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+/* main{
+    .icon{
+        width: 50px;
+        height: 50px;
+    }
+    .iconimage{
+        width: 35px;
+        height: 35px;
+    }
+} */
+
+@import "../../node_modules/bootstrap/scss/bootstrap";
